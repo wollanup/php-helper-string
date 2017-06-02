@@ -1,0 +1,24 @@
+{
+  "name": "wollanup/php-helper-string",
+  "license": "MIT",
+  "description": "String Helper",
+  "authors": [
+    {
+      "name": "Steve Mareigner",
+      "email": "steve.mareigner@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Wollanup\\Helper\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Wollanup\\Helper\\Test\\": "tests/"
+    }
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^6.0"
+  }
+}
